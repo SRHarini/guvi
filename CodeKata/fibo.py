@@ -4,8 +4,8 @@ snd=1
 if(get==0):
   print(fst)
 else:
-  print(fst,snd,end=" ")
-  for i in range(2,get):
+  print(snd,end=" ")
+  for i in range(1,get):
     cnt=fst+snd
     print(cnt,end=" ")
     fst=snd
