@@ -1,2 +1,3 @@
 get=int(input())
-print(get+1)
+k=get+1
+print(k)
