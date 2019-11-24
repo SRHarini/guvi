@@ -1,0 +1,15 @@
+n=int(input("Input the number of paragraphas:"))
+d=dict()
+l=[]
+for x in range(1,n+1):
+    d[x]=str(input())
+    if(x<n):
+      print("\n")
+     
+s=input("Enter the word:")
+for x in range(1,n+1):
+      d[x]=d[x].lower().split()
+      for i in d[x]:
+          if(i==s):
+              print("paragraph:",x)
+              break
